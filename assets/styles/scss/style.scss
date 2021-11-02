@@ -1,9 +1,18 @@
+// variables
 $black: #000;
 $white: #fff;
 
+// menu
 .menu {
   background-color: $black;
   position: relative;
+
+  @media (max-width: 992px) {
+    .container {
+      max-width: 100%;
+      padding: 0;
+    }
+  }
 
   &__brand {
     margin-right: 32px;
@@ -34,7 +43,6 @@ $white: #fff;
     flex-direction: column;
     justify-content: space-between;
     height: 32px;
-    margin-right: 32px;
 
     &:focus {
       outline: none;
@@ -61,6 +69,15 @@ $white: #fff;
     }
   }
 
+  &__toggler-wrapper {
+    padding: 24px;
+    background-color: #3d3d3d;
+
+    @media (min-width: 992px) {
+      display: none;
+    }
+  }
+
   .navbar {
     padding: 0;
 
@@ -77,3 +94,5 @@ $white: #fff;
     padding: 28px 8px 28px 8px;
   }
 }
+
+// end menu

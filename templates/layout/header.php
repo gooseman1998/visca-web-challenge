@@ -14,11 +14,13 @@
                 <div class="row">
                     <div class="col-12">
                         <nav class="navbar navbar-expand-lg">
-                            <button class="navbar-toggler menu__toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                                <div></div>
-                                <div></div>
-                                <div></div>
-                            </button>
+                            <div class="menu__toggler-wrapper">
+                                <button class="navbar-toggler menu__toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </button>
+                            </div>
                             <a class="menu__brand" href="#">
                                 <img src="./assets/images/logo.svg" alt="logo-challenge">
                             </a>
