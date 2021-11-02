@@ -1,0 +1,71 @@
+.menu {
+  background-color: #000;
+  position: relative;
+}
+.menu__brand {
+  margin-right: 32px;
+}
+.menu__link {
+  background-color: #000;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 8px;
+  border-radius: 8px 8px 0 0;
+  transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+}
+@media (max-width: 992px) {
+  .menu__link {
+    border-radius: 0;
+    margin-top: 0;
+  }
+}
+.menu__link:hover {
+  background-color: #fff;
+  color: #000;
+}
+.menu__toggler {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 32px;
+  margin-right: 32px;
+}
+.menu__toggler:focus {
+  outline: none;
+}
+.menu__toggler div {
+  width: 24px;
+  height: 2px;
+  background-color: #fff;
+  border-radius: 2px;
+  transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
+}
+.menu__toggler[aria-expanded=true] div:nth-child(1) {
+  transform: translateY(10px) rotate(45deg);
+}
+.menu__toggler[aria-expanded=true] div:nth-child(2) {
+  opacity: 0;
+}
+.menu__toggler[aria-expanded=true] div:nth-child(3) {
+  transform: translateY(-10px) rotate(-45deg);
+}
+.menu .navbar {
+  padding: 0;
+}
+@media (max-width: 992px) {
+  .menu .navbar {
+    justify-content: flex-start;
+  }
+}
+
+.menu .navbar .menu__link {
+  padding: 20px 8px 28px 8px;
+}
+@media (max-width: 992px) {
+  .menu .navbar .menu__link {
+    padding: 28px 8px 28px 8px;
+  }
+}
+
+/*# sourceMappingURL=style.min.css.map */
