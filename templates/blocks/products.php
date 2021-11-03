@@ -17,9 +17,9 @@
             </div>
         </div>
     </div>
-    <div class="row product-cards">
+    <div class="row product-cards product-cards--list">
         
-        <div class="col product-card" id="sportsInteractionCard">
+        <div class="col product-card product-card--list" id="sportsInteractionCard">
             <span class="product-card__number">
                 1
             </span>
@@ -34,10 +34,13 @@
                 </div>
                 <a href="#" class="product-card__show-review">Read review</a>
             </div>
-            <div class="product-card__sale-offer"><strong> <span class="product-card__line-break"> - Exclusive - </span></strong> Bonus up to <strong>$200</strong></div>
-            <a href="#"  class="btn btn-primary product-card__button">Play Now</a>
+            <div class="product-card__sale-offer product-card__sale-offer--desktop"><strong> <span class="product-card__line-break"> - Exclusive - </span></strong> Bonus up to <strong>$200</strong></div>
+            <div class="product-card__sale-offer product-card__sale-offer--mobile"> <span class="product-card__line-break"> Bonus </span> <strong>$200</strong></div>
+            <a href="#"  class="btn btn-primary product-card__button product-card__button--desktop">Play Now</a>
+            <a href="#"  class="btn btn-primary product-card__button product-card__button--mobile"></a>
+
         </div>
-        <div class="col product-card" id="powerPlaySportsCard">
+        <div class="col product-card product-card--list" id="powerPlaySportsCard">
             <span class="product-card__number">
                 2
             </span>
@@ -52,10 +55,13 @@
                 </div>
                 <a href="#" class="product-card__show-review">Read review</a>
             </div>
-            <div class="product-card__sale-offer"><strong><span class="product-card__line-break"> - Exclusive - </span></strong> Bonus up to <strong>$200</strong></div>
-            <a href="#"  class="btn btn-primary product-card__button">Play Now</a>
+            <div class="product-card__sale-offer product-card__sale-offer--desktop"><strong><span class="product-card__line-break"> - Exclusive - </span></strong> Bonus up to <strong>$200</strong></div>
+            <div class="product-card__sale-offer product-card__sale-offer--mobile"> <span class="product-card__line-break"> Bonus </span> <strong>$200</strong></div>
+
+            <a href="#"  class="btn btn-primary product-card__button product-card__button--desktop">Play Now</a>
+            <a href="#"  class="btn btn-primary product-card__button product-card__button--mobile"></a>
         </div>
-        <div class="col product-card" id="betwayCard">
+        <div class="col product-card product-card--list" id="betwayCard">
             <span class="product-card__number">
                 3
             </span>
@@ -70,10 +76,13 @@
                 </div>
                 <a href="#" class="product-card__show-review">Read review</a>
             </div>
-            <div class="product-card__sale-offer"><span class="product-card__line-break">100% Sign Up Bonus</span> Up to <strong>$200</strong></div>
-            <a href="#"  class="btn btn-primary product-card__button">Play Now</a>
+            <div class="product-card__sale-offer product-card__sale-offer--desktop"><span class="product-card__line-break">100% Sign Up Bonus</span> Up to <strong>$200</strong></div>
+            <div class="product-card__sale-offer product-card__sale-offer--mobile"> <span class="product-card__line-break"> Bonus </span> <strong>$200</strong></div>
+
+            <a href="#"  class="btn btn-primary product-card__button product-card__button--desktop">Play Now</a>
+            <a href="#"  class="btn btn-primary product-card__button product-card__button--mobile"></a>
         </div>
-        <div class="col product-card" id="spinSportsCard">
+        <div class="col product-card product-card--list" id="spinSportsCard">
             <span class="product-card__number">
                 4
             </span>
@@ -88,10 +97,13 @@
                 </div>
                 <a href="#" class="product-card__show-review">Read review</a>
             </div>
-            <div class="product-card__sale-offer"><strong><span class="product-card__line-break"> - Exclusive - </span></strong>Up to <strong>$500</strong> Free Bet</div>
-            <a href="#"  class="btn btn-primary product-card__button">Play Now</a>
+            <div class="product-card__sale-offer product-card__sale-offer--desktop"><strong><span class="product-card__line-break"> - Exclusive - </span></strong>Up to <strong>$500</strong> Free Bet</div>
+            <div class="product-card__sale-offer product-card__sale-offer--mobile"> <span class="product-card__line-break"> Bonus </span> <strong>$200</strong></div>
+
+            <a href="#"  class="btn btn-primary product-card__button product-card__button--desktop">Play Now</a>
+            <a href="#"  class="btn btn-primary product-card__button product-card__button--mobile"></a>
         </div>
-        <div class="col product-card"  id="bodogCard">
+        <div class="col product-card product-card--list"  id="bodogCard">
             <span class="product-card__number">
                 5
             </span>
@@ -106,8 +118,11 @@
                 </div>
                 <a href="#" class="product-card__show-review">Read review</a>
             </div>
-            <div class="product-card__sale-offer"><span class="product-card__line-break">100% Sign Up Bonus</span> Up to <strong>$200</strong></div>
-            <a href="#"  class="btn btn-primary product-card__button">Play Now</a>
+            <div class="product-card__sale-offer product-card__sale-offer--desktop"><span class="product-card__line-break">100% Sign Up Bonus</span> Up to <strong>$200</strong></div>
+            <div class="product-card__sale-offer product-card__sale-offer--mobile"> <span class="product-card__line-break"> Bonus </span> <strong>$200</strong></div>
+
+            <a href="#"  class="btn btn-primary product-card__button product-card__button--desktop">Play Now</a>
+            <a href="#"  class="btn btn-primary product-card__button product-card__button--mobile"></a>
         </div>
     </div>
     <div class="product-cards__view-more">
