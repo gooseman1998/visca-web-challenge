@@ -16,8 +16,9 @@
             </div>
         </div>
     </div>
-    <div class="product-cards">
-        <div class="product-card">
+    <div class="row product-cards">
+        
+        <div class="col product-card">
             <span class="product-card__number">
                 1
             </span>
@@ -32,10 +33,10 @@
                 </div>
                 <a href="#" class="product-card__show-review">Read review</a>
             </div>
-            <div class="product-card__sale-offer"><strong>- Exclusive - </strong><br> Bonus up to <strong>$200</strong></div>
+            <div class="product-card__sale-offer"><strong> <span class="product-card__line-break"> - Exclusive - </span></strong> Bonus up to <strong>$200</strong></div>
             <a href="#"  class="btn btn-primary product-card__button">Play Now</a>
         </div>
-        <div class="product-card">
+        <div class="col product-card">
             <span class="product-card__number">
                 2
             </span>
@@ -50,10 +51,10 @@
                 </div>
                 <a href="#" class="product-card__show-review">Read review</a>
             </div>
-            <div class="product-card__sale-offer"><strong>- Exclusive - </strong><br> Bonus up to <strong>$200</strong></div>
+            <div class="product-card__sale-offer"><strong><span class="product-card__line-break"> - Exclusive - </span></strong> Bonus up to <strong>$200</strong></div>
             <a href="#"  class="btn btn-primary product-card__button">Play Now</a>
         </div>
-        <div class="product-card">
+        <div class="col product-card">
             <span class="product-card__number">
                 3
             </span>
@@ -68,10 +69,10 @@
                 </div>
                 <a href="#" class="product-card__show-review">Read review</a>
             </div>
-            <div class="product-card__sale-offer"><strong>- Exclusive - </strong><br> Bonus up to <strong>$200</strong></div>
+            <div class="product-card__sale-offer"><span class="product-card__line-break">100% Sign Up Bonus</span> Up to <strong>$200</strong></div>
             <a href="#"  class="btn btn-primary product-card__button">Play Now</a>
         </div>
-        <div class="product-card">
+        <div class="col product-card">
             <span class="product-card__number">
                 4
             </span>
@@ -86,10 +87,10 @@
                 </div>
                 <a href="#" class="product-card__show-review">Read review</a>
             </div>
-            <div class="product-card__sale-offer"><strong>- Exclusive - </strong><br> Bonus up to <strong>$200</strong></div>
+            <div class="product-card__sale-offer"><strong><span class="product-card__line-break"> - Exclusive - </span></strong>Up to <strong>$500</strong> Free Bet</div>
             <a href="#"  class="btn btn-primary product-card__button">Play Now</a>
         </div>
-        <div class="product-card">
+        <div class="col product-card">
             <span class="product-card__number">
                 5
             </span>
@@ -104,7 +105,7 @@
                 </div>
                 <a href="#" class="product-card__show-review">Read review</a>
             </div>
-            <div class="product-card__sale-offer"><strong>- Exclusive - </strong><br> Bonus up to <strong>$200</strong></div>
+            <div class="product-card__sale-offer"><span class="product-card__line-break">100% Sign Up Bonus</span> Up to <strong>$200</strong></div>
             <a href="#"  class="btn btn-primary product-card__button">Play Now</a>
         </div>
     </div>
