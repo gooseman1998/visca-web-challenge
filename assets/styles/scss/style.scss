@@ -1,6 +1,12 @@
 // variables
 $black: #000;
 $white: #fff;
+$mineShaft: #3d3d3d;
+$grey: #828282;
+$pomegranate: #f44337;
+$monza: #bf0816;
+$royal-blue: #2738f1;
+$yellow: #fbc02d;
 
 // menu
 .menu {
@@ -71,7 +77,7 @@ $white: #fff;
 
   &__toggler-wrapper {
     padding: 24px;
-    background-color: #3d3d3d;
+    background-color: $mineShaft;
 
     @media (min-width: 992px) {
       display: none;
@@ -149,7 +155,7 @@ $white: #fff;
       transform: translateX(-50%);
       width: 72px;
       height: 4px;
-      background-color: #f44337;
+      background-color: $pomegranate;
 
       @media (max-width: 992px) {
         display: none;
@@ -219,7 +225,7 @@ $white: #fff;
   }
 
   &__view-more-link {
-    color: #2738f1;
+    color: $royal-blue;
     font-weight: 600;
   }
 }
@@ -264,17 +270,17 @@ $white: #fff;
   &__stars {
     .fa-star {
       font-size: 11px;
-      color: #fbc02d;
+      color: $yellow;
     }
   }
 
   &__show-review {
-    color: #828282;
+    color: $grey;
     text-decoration: underline;
   }
 
   &__sale-offer {
-    color: #2a42ed;
+    color: $royal-blue;
     text-align: center;
     font-size: 17px;
     margin-bottom: 32px;
@@ -306,13 +312,13 @@ $white: #fff;
 }
 
 .btn-primary {
-  background-color: #f44337;
-  border-color: #f44337;
+  background-color: $pomegranate;
+  border-color: $pomegranate;
   transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 
   &:hover {
-    background-color: #bf0816;
-    border-color: #bf0816;
+    background-color: $monza;
+    border-color: $monza;
   }
 }
 
