@@ -2,6 +2,11 @@
 $black: #000;
 $white: #fff;
 
+body {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
 // menu
 .menu {
   background-color: $black;
@@ -130,6 +135,15 @@ $white: #fff;
 
   &__alphabetically {
     text-decoration: underline;
+    width: 180px;
+
+    @media (max-width: 992px) {
+      text-align: center;
+    }
+
+    #sort_normal {
+      display: none;
+    }
 
     &:hover {
       cursor: pointer;
@@ -140,6 +154,11 @@ $white: #fff;
     display: flex;
     position: relative;
     align-items: center;
+
+    @media (max-width: 992px) {
+      flex-direction: column;
+      text-align: center;
+    }
 
     &::after {
       content: "";
@@ -165,6 +184,10 @@ $white: #fff;
     width: 72px;
     height: 40px;
     margin-right: 16px;
+
+    @media (max-width: 992px) {
+      margin-bottom: 32px;
+    }
   }
 
   &__change-view {
