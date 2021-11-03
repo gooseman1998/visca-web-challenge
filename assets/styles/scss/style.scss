@@ -269,6 +269,15 @@ $white: #fff;
     justify-content: left;
     gap: 32px;
 
+    @media (max-width: 992px) {
+      gap: 0 32px;
+    }
+
+    @media (max-width: 576px) {
+      gap: 24px;
+      justify-content: center;
+    }
+
     .product-card__sale-offer {
       margin-bottom: 0;
     }
@@ -285,10 +294,22 @@ $white: #fff;
       margin-right: auto;
       margin-bottom: 0;
       display: flex;
+
+      @media (max-width: 576px) {
+        margin-right: initial;
+      }
     }
 
     .product-card__stars {
       margin-right: 24px;
+    }
+
+    .product-card__line-break {
+      display: initial;
+    }
+
+    .product-card__button {
+      margin-top: initial;
     }
   }
 
@@ -331,7 +352,6 @@ $white: #fff;
   }
 
   &__line-break {
-    width: 100%;
     display: block;
   }
 
