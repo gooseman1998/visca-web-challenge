@@ -173,4 +173,91 @@
   transform: translateX(20px);
 }
 
+.product-cards {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  padding: 40px 32px 0;
+  margin: 0 auto;
+  align-items: center;
+  gap: 24px;
+}
+
+.product-card {
+  width: 20%;
+  max-width: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.2), 0px 1px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  padding: 28px;
+  position: relative;
+  transform: scale(1);
+  transition: transform 0.2s ease-in-out;
+}
+.product-card:hover {
+  transform: scale(1.05);
+}
+.product-card__number {
+  position: absolute;
+  top: 2px;
+  left: 12px;
+  font-size: 26px;
+  font-weight: 700;
+}
+.product-card__logo {
+  width: 140px;
+  height: 70px;
+  object-fit: contain;
+  margin-bottom: 8px;
+}
+.product-card__review-wrapper {
+  margin-bottom: 24px;
+}
+.product-card__stars .fa-star {
+  font-size: 11px;
+  color: #fbc02d;
+}
+.product-card__show-review {
+  color: #828282;
+  text-decoration: underline;
+}
+.product-card__sale-offer {
+  color: #2a42ed;
+  text-align: center;
+  font-size: 17px;
+  margin-bottom: 32px;
+}
+.product-card__button {
+  padding-left: 40px;
+  padding-right: 40px;
+  position: relative;
+}
+.product-card__button::after {
+  content: ">";
+  font-family: "Font Awesome 5 Free";
+  font-size: 18px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+  color: #fff;
+  transition: right 0.2s ease-in-out;
+}
+.product-card__button:hover::after {
+  right: 12px;
+}
+
+.btn-primary {
+  background-color: #f44337;
+  border-color: #f44337;
+  transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+.btn-primary:hover {
+  background-color: #bf0816;
+  border-color: #bf0816;
+}
+
 /*# sourceMappingURL=style.min.css.map */

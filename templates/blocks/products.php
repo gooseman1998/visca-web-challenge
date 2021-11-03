@@ -16,5 +16,97 @@
             </div>
         </div>
     </div>
+    <div class="product-cards">
+        <div class="product-card">
+            <span class="product-card__number">
+                1
+            </span>
+            <img src="./assets/images/sports-interaction-logo.png" alt="product logo" class="product-card__logo">
+            <div class="product-card__review-wrapper">
+                <div class="product-card__stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <a href="#" class="product-card__show-review">Read review</a>
+            </div>
+            <div class="product-card__sale-offer"><strong>- Exclusive - </strong><br> Bonus up to <strong>$200</strong></div>
+            <a href="#"  class="btn btn-primary product-card__button">Play Now</a>
+        </div>
+        <div class="product-card">
+            <span class="product-card__number">
+                2
+            </span>
+            <img src="./assets/images/powerplay-logo.png" alt="product logo" class="product-card__logo">
+            <div class="product-card__review-wrapper">
+                <div class="product-card__stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <a href="#" class="product-card__show-review">Read review</a>
+            </div>
+            <div class="product-card__sale-offer"><strong>- Exclusive - </strong><br> Bonus up to <strong>$200</strong></div>
+            <a href="#"  class="btn btn-primary product-card__button">Play Now</a>
+        </div>
+        <div class="product-card">
+            <span class="product-card__number">
+                3
+            </span>
+            <img src="./assets/images/betway-logo.png" alt="product logo" class="product-card__logo">
+            <div class="product-card__review-wrapper">
+                <div class="product-card__stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <a href="#" class="product-card__show-review">Read review</a>
+            </div>
+            <div class="product-card__sale-offer"><strong>- Exclusive - </strong><br> Bonus up to <strong>$200</strong></div>
+            <a href="#"  class="btn btn-primary product-card__button">Play Now</a>
+        </div>
+        <div class="product-card">
+            <span class="product-card__number">
+                4
+            </span>
+            <img src="./assets/images/spin-logo.png" alt="product logo" class="product-card__logo">
+            <div class="product-card__review-wrapper">
+                <div class="product-card__stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <a href="#" class="product-card__show-review">Read review</a>
+            </div>
+            <div class="product-card__sale-offer"><strong>- Exclusive - </strong><br> Bonus up to <strong>$200</strong></div>
+            <a href="#"  class="btn btn-primary product-card__button">Play Now</a>
+        </div>
+        <div class="product-card">
+            <span class="product-card__number">
+                5
+            </span>
+            <img src="./assets/images/bodog-logo.png" alt="product logo" class="product-card__logo">
+            <div class="product-card__review-wrapper">
+                <div class="product-card__stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <a href="#" class="product-card__show-review">Read review</a>
+            </div>
+            <div class="product-card__sale-offer"><strong>- Exclusive - </strong><br> Bonus up to <strong>$200</strong></div>
+            <a href="#"  class="btn btn-primary product-card__button">Play Now</a>
+        </div>
+    </div>
 </div>
 
