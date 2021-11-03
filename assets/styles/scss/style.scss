@@ -315,3 +315,22 @@ $white: #fff;
     border-color: #bf0816;
   }
 }
+
+// end product
+
+// image
+
+.image-big {
+  max-width: 1200px;
+  padding: 40px 32px 0;
+  margin: 0 auto;
+
+  &__image {
+    width: 100%;
+    padding: 16px;
+    box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.2), 0px 1px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    filter: sepia(60%);
+    // filter: sepia(60%);
+  }
+}
