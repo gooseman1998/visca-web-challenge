@@ -111,6 +111,7 @@ $white: #fff;
     min-height: 400px;
     object-fit: cover;
     z-index: -1;
+    object-position: bottom;
   }
 
   &__header {
@@ -211,6 +212,16 @@ $white: #fff;
   margin: 0 auto;
   align-items: center;
   gap: 24px;
+
+  &__view-more {
+    padding: 32px 0;
+    text-align: center;
+  }
+
+  &__view-more-link {
+    color: #2738f1;
+    font-weight: 600;
+  }
 }
 
 .product-card {

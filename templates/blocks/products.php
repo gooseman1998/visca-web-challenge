@@ -108,5 +108,10 @@
             <a href="#"  class="btn btn-primary product-card__button">Play Now</a>
         </div>
     </div>
+    <div class="product-cards__view-more">
+        <a href="#" class="product-cards__view-more-link">
+            View All Sports Betting Sites
+        </a>
+    </div>
 </div>
 
