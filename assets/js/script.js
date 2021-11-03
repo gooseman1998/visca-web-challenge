@@ -6,7 +6,7 @@ const productCardWrapper = document.querySelector(".product-cards");
 const productCards = document.querySelectorAll(".product-card");
 
 changeView.addEventListener("click", (event) => {
-  if (changeView.checked == true) {
+  if (changeView.checked == false) {
     productCardWrapper.classList.add("product-cards--list");
     productCards.forEach((card) => {
       card.classList.add("product-card--list");
@@ -45,3 +45,15 @@ sortNormal.addEventListener("click", (event) => {
     productCardWrapper.appendChild(card);
   });
 });
+
+window.addEventListener(
+  "resize",
+  function (event) {
+    if (window.innerWidth <= 992) {
+      if (changeView.checked == true) {
+        changeView.click();
+      }
+    }
+  },
+  true
+);
