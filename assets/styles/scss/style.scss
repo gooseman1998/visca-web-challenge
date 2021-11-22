@@ -1,4 +1,15 @@
+// fonts load
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&family=Titillium+Web:wght@700&display=swap");
+
 // variables
+
+$font-family-base: "Source Sans Pro", sans-serif;
+$font-family-headings: "Titillium Web", sans-serif;
+
+$font-weight-base: 400;
+$font-weight-bold: 600;
+$font-weight-extra-bold: 700;
+
 $black: #000;
 $white: #fff;
 $mineShaft: #3a3a3a;
@@ -7,6 +18,22 @@ $pomegranate: #f44337;
 $monza: #bf0816;
 $royal-blue: #2738f1;
 $yellow: #fbc02d;
+
+// general
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+div {
+  font-weight: $font-weight-base;
+  font-family: $font-family-base;
+}
 
 body {
   max-width: 1600px;
@@ -186,6 +213,9 @@ body {
 
   &__title {
     margin-bottom: 0;
+    font-family: $font-family-headings;
+    font-weight: $font-weight-extra-bold;
+    font-size: 34px;
 
     @media (max-width: 992px) {
       font-size: 18px;
