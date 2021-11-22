@@ -521,6 +521,11 @@ body {
       transform: translateY(-50%);
       right: 16px;
       transition: right 0.2s ease-in-out;
+
+      &--mobile {
+        width: 7.64px;
+        height: 13px;
+      }
     }
 
     &:hover {

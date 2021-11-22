@@ -37,7 +37,7 @@
             <div class="product-card__sale-offer product-card__sale-offer--desktop"><strong> <span class="product-card__line-break"> - Exclusive - </span></strong> Bonus up to <strong>$200</strong></div>
             <div class="product-card__sale-offer product-card__sale-offer--mobile"> <span class="product-card__line-break"> BONUS </span> <strong>$200</strong></div>
             <a href="#"  class="btn btn-primary product-card__button product-card__button--desktop">Play Now <img src="./assets/images/misc/chevron.svg" class="product-card__button__chevron"></a>
-            <a href="#"  class="btn btn-primary product-card__button product-card__button--mobile"></a>
+            <a href="#"  class="btn btn-primary product-card__button product-card__button--mobile"><img src="./assets/images/misc/chevron.svg" class="product-card__button__chevron product-card__button__chevron--mobile"></a>
 
         </div>
         <div class="col product-card product-card--list" id="powerPlaySportsCard">
@@ -59,7 +59,7 @@
             <div class="product-card__sale-offer product-card__sale-offer--mobile"> <span class="product-card__line-break"> BONUS </span> <strong>$200</strong></div>
 
             <a href="#"  class="btn btn-primary product-card__button product-card__button--desktop">Play Now <img src="./assets/images/misc/chevron.svg" class="product-card__button__chevron"></a>
-            <a href="#"  class="btn btn-primary product-card__button product-card__button--mobile"></a>
+            <a href="#"  class="btn btn-primary product-card__button product-card__button--mobile"><img src="./assets/images/misc/chevron.svg" class="product-card__button__chevron product-card__button__chevron--mobile"></a>
         </div>
         <div class="col product-card product-card--list" id="betwayCard">
             <span class="product-card__number">
@@ -80,7 +80,7 @@
             <div class="product-card__sale-offer product-card__sale-offer--mobile"> <span class="product-card__line-break"> BONUS </span> <strong>$200</strong></div>
 
             <a href="#"  class="btn btn-primary product-card__button product-card__button--desktop">Play Now <img src="./assets/images/misc/chevron.svg" class="product-card__button__chevron"></a>
-            <a href="#"  class="btn btn-primary product-card__button product-card__button--mobile"></a>
+            <a href="#"  class="btn btn-primary product-card__button product-card__button--mobile"><img src="./assets/images/misc/chevron.svg" class="product-card__button__chevron product-card__button__chevron--mobile"></a>
         </div>
         <div class="col product-card product-card--list" id="spinSportsCard">
             <span class="product-card__number">
@@ -101,7 +101,7 @@
             <div class="product-card__sale-offer product-card__sale-offer--mobile"> <span class="product-card__line-break"> BONUS </span> <strong>$200</strong></div>
 
             <a href="#"  class="btn btn-primary product-card__button product-card__button--desktop">Play Now <img src="./assets/images/misc/chevron.svg" class="product-card__button__chevron"></a>
-            <a href="#"  class="btn btn-primary product-card__button product-card__button--mobile"></a>
+            <a href="#"  class="btn btn-primary product-card__button product-card__button--mobile"><img src="./assets/images/misc/chevron.svg" class="product-card__button__chevron product-card__button__chevron--mobile"></a>
         </div>
         <div class="col product-card product-card--list"  id="bodogCard">
             <span class="product-card__number">
@@ -122,7 +122,7 @@
             <div class="product-card__sale-offer product-card__sale-offer--mobile"> <span class="product-card__line-break"> BONUS </span> <strong>$200</strong></div>
 
             <a href="#"  class="btn btn-primary product-card__button product-card__button--desktop">Play Now <img src="./assets/images/misc/chevron.svg" class="product-card__button__chevron"></a>
-            <a href="#"  class="btn btn-primary product-card__button product-card__button--mobile"></a>
+            <a href="#"  class="btn btn-primary product-card__button product-card__button--mobile"><img src="./assets/images/misc/chevron.svg" class="product-card__button__chevron product-card__button__chevron--mobile"></a>
         </div>
     </div>
     <div class="product-cards__view-more">

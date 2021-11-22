@@ -457,6 +457,10 @@ body {
   right: 16px;
   transition: right 0.2s ease-in-out;
 }
+.product-card__button__chevron--mobile {
+  width: 7.64px;
+  height: 13px;
+}
 .product-card__button:hover .product-card__button__chevron {
   right: 8px;
 }
