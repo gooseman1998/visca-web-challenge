@@ -259,6 +259,11 @@ body {
   font-weight: 600;
   font-size: 15px;
 }
+@media (max-width: 992px) {
+  .product-cards__view-more-link {
+    text-decoration: underline;
+  }
+}
 
 .product-card {
   flex: 0 0 18%;
