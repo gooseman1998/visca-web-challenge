@@ -10,6 +10,8 @@ $font-weight-base: 400;
 $font-weight-bold: 600;
 $font-weight-extra-bold: 700;
 
+$font-size-base: 14px;
+
 $black: #000;
 $white: #fff;
 $mineShaft: #3a3a3a;
@@ -33,6 +35,7 @@ a,
 div {
   font-weight: $font-weight-base;
   font-family: $font-family-base;
+  font-size: $font-size-base;
 }
 
 body {
@@ -167,9 +170,13 @@ body {
   }
 
   &__alphabetically {
-    text-decoration: underline;
+    span {
+      text-decoration: underline;
+      font-weight: $font-weight-bold;
+      font-size: 15px;
+    }
+
     width: 180px;
-    font-weight: 600;
 
     @media (max-width: 992px) {
       text-align: right;
@@ -241,6 +248,8 @@ body {
 
     .custom-control-label {
       text-decoration: underline;
+      font-weight: $font-weight-bold;
+      font-size: 15px;
 
       &:hover {
         cursor: pointer;
@@ -300,7 +309,8 @@ body {
 
   &__view-more-link {
     color: $royal-blue;
-    font-weight: 600;
+    font-weight: $font-weight-bold;
+    font-size: 15px;
   }
 }
 
@@ -451,6 +461,10 @@ body {
     font-size: 17px;
     margin-bottom: 32px;
 
+    span {
+      font-size: 17px;
+    }
+
     &--mobile {
       display: none;
     }
@@ -470,7 +484,7 @@ body {
   }
 
   &__button {
-    font-size: 14px;
+    font-size: $font-size-base;
     padding-left: 40px;
     padding-right: 40px;
     margin-top: auto;

@@ -12,6 +12,7 @@ a,
 div {
   font-weight: 400;
   font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
 }
 
 body {
@@ -132,9 +133,12 @@ body {
   }
 }
 .products__alphabetically {
-  text-decoration: underline;
   width: 180px;
+}
+.products__alphabetically span {
+  text-decoration: underline;
   font-weight: 600;
+  font-size: 15px;
 }
 @media (max-width: 992px) {
   .products__alphabetically {
@@ -203,6 +207,8 @@ body {
 }
 .products__switch .custom-control-label {
   text-decoration: underline;
+  font-weight: 600;
+  font-size: 15px;
 }
 .products__switch .custom-control-label:hover {
   cursor: pointer;
@@ -251,6 +257,7 @@ body {
 .product-cards__view-more-link {
   color: #2738f1;
   font-weight: 600;
+  font-size: 15px;
 }
 
 .product-card {
@@ -394,6 +401,9 @@ body {
   text-align: center;
   font-size: 17px;
   margin-bottom: 32px;
+}
+.product-card__sale-offer span {
+  font-size: 17px;
 }
 .product-card__sale-offer--mobile {
   display: none;
