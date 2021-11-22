@@ -1,8 +1,8 @@
 // variables
 $black: #000;
 $white: #fff;
-$mineShaft: #3d3d3d;
-$grey: #828282;
+$mineShaft: #3a3a3a;
+$grey: #484848;
 $pomegranate: #f44337;
 $monza: #bf0816;
 $royal-blue: #2738f1;
@@ -142,6 +142,7 @@ body {
   &__alphabetically {
     text-decoration: underline;
     width: 180px;
+    font-weight: 600;
 
     @media (max-width: 992px) {
       text-align: right;
@@ -232,8 +233,20 @@ body {
       border-radius: 20px;
     }
 
-    .custom-control-input:checked ~ .custom-control-label::after {
-      transform: translateX(20px);
+    .custom-control-label::before {
+      outline: none;
+      box-shadow: none !important;
+      border: 1px solid #adb5bd !important;
+    }
+
+    .custom-control-input:checked {
+      & ~ .custom-control-label::after {
+        transform: translateX(20px);
+      }
+
+      & ~ .custom-control-label::before {
+        background-color: #828282;
+      }
     }
   }
 }
@@ -392,7 +405,7 @@ body {
   }
 
   &__show-review {
-    color: $grey;
+    color: $mineShaft;
     text-decoration: underline;
   }
 
