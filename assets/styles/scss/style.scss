@@ -394,6 +394,8 @@ body {
 
     .product-card__line-break {
       display: initial;
+      margin-right: 4px;
+
       @media (max-width: 992px) {
         display: block;
       }
@@ -468,6 +470,7 @@ body {
   }
 
   &__button {
+    font-size: 14px;
     padding-left: 40px;
     padding-right: 40px;
     margin-top: auto;
@@ -492,21 +495,19 @@ body {
       }
     }
 
-    &::after {
-      content: ">";
-      font-family: "Font Awesome 5 Free";
-      font-size: 18px;
+    &__chevron {
+      width: 5.87px;
+      height: 10px;
       position: absolute;
       top: 50%;
       transform: translateY(-50%);
-      right: 20px;
-      color: $white;
+      right: 16px;
       transition: right 0.2s ease-in-out;
     }
 
     &:hover {
-      &::after {
-        right: 12px;
+      .product-card__button__chevron {
+        right: 8px;
       }
     }
   }

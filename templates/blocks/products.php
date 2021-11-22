@@ -36,7 +36,7 @@
             </div>
             <div class="product-card__sale-offer product-card__sale-offer--desktop"><strong> <span class="product-card__line-break"> - Exclusive - </span></strong> Bonus up to <strong>$200</strong></div>
             <div class="product-card__sale-offer product-card__sale-offer--mobile"> <span class="product-card__line-break"> Bonus </span> <strong>$200</strong></div>
-            <a href="#"  class="btn btn-primary product-card__button product-card__button--desktop">Play Now</a>
+            <a href="#"  class="btn btn-primary product-card__button product-card__button--desktop">Play Now <img src="./assets/images/misc/chevron.svg" class="product-card__button__chevron"></a>
             <a href="#"  class="btn btn-primary product-card__button product-card__button--mobile"></a>
 
         </div>
@@ -58,7 +58,7 @@
             <div class="product-card__sale-offer product-card__sale-offer--desktop"><strong><span class="product-card__line-break"> - Exclusive - </span></strong> Bonus up to <strong>$200</strong></div>
             <div class="product-card__sale-offer product-card__sale-offer--mobile"> <span class="product-card__line-break"> Bonus </span> <strong>$200</strong></div>
 
-            <a href="#"  class="btn btn-primary product-card__button product-card__button--desktop">Play Now</a>
+            <a href="#"  class="btn btn-primary product-card__button product-card__button--desktop">Play Now <img src="./assets/images/misc/chevron.svg" class="product-card__button__chevron"></a>
             <a href="#"  class="btn btn-primary product-card__button product-card__button--mobile"></a>
         </div>
         <div class="col product-card product-card--list" id="betwayCard">
@@ -79,7 +79,7 @@
             <div class="product-card__sale-offer product-card__sale-offer--desktop"><span class="product-card__line-break">100% Sign Up Bonus</span> Up to <strong>$200</strong></div>
             <div class="product-card__sale-offer product-card__sale-offer--mobile"> <span class="product-card__line-break"> Bonus </span> <strong>$200</strong></div>
 
-            <a href="#"  class="btn btn-primary product-card__button product-card__button--desktop">Play Now</a>
+            <a href="#"  class="btn btn-primary product-card__button product-card__button--desktop">Play Now <img src="./assets/images/misc/chevron.svg" class="product-card__button__chevron"></a>
             <a href="#"  class="btn btn-primary product-card__button product-card__button--mobile"></a>
         </div>
         <div class="col product-card product-card--list" id="spinSportsCard">
@@ -100,7 +100,7 @@
             <div class="product-card__sale-offer product-card__sale-offer--desktop"><strong><span class="product-card__line-break"> - Exclusive - </span></strong>Up to <strong>$500</strong> Free Bet</div>
             <div class="product-card__sale-offer product-card__sale-offer--mobile"> <span class="product-card__line-break"> Bonus </span> <strong>$200</strong></div>
 
-            <a href="#"  class="btn btn-primary product-card__button product-card__button--desktop">Play Now</a>
+            <a href="#"  class="btn btn-primary product-card__button product-card__button--desktop">Play Now <img src="./assets/images/misc/chevron.svg" class="product-card__button__chevron"></a>
             <a href="#"  class="btn btn-primary product-card__button product-card__button--mobile"></a>
         </div>
         <div class="col product-card product-card--list"  id="bodogCard">
@@ -121,7 +121,7 @@
             <div class="product-card__sale-offer product-card__sale-offer--desktop"><span class="product-card__line-break">100% Sign Up Bonus</span> Up to <strong>$200</strong></div>
             <div class="product-card__sale-offer product-card__sale-offer--mobile"> <span class="product-card__line-break"> Bonus </span> <strong>$200</strong></div>
 
-            <a href="#"  class="btn btn-primary product-card__button product-card__button--desktop">Play Now</a>
+            <a href="#"  class="btn btn-primary product-card__button product-card__button--desktop">Play Now <img src="./assets/images/misc/chevron.svg" class="product-card__button__chevron"></a>
             <a href="#"  class="btn btn-primary product-card__button product-card__button--mobile"></a>
         </div>
     </div>
