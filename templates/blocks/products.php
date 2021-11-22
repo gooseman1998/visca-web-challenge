@@ -26,11 +26,11 @@
             <img src="./assets/images/sports-interaction-logo.png" alt="product logo" class="product-card__logo">
             <div class="product-card__review-wrapper">
                 <div class="product-card__stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
+                    <img src="./assets/images/misc/star.svg" class="product-card__star">
+                    <img src="./assets/images/misc/star.svg" class="product-card__star">
+                    <img src="./assets/images/misc/star.svg" class="product-card__star">
+                    <img src="./assets/images/misc/star.svg" class="product-card__star">
+                    <img src="./assets/images/misc/star.svg" class="product-card__star">
                 </div>
                 <a href="#" class="product-card__show-review">Read review</a>
             </div>
@@ -47,11 +47,11 @@
             <img src="./assets/images/powerplay-logo.png" alt="product logo" class="product-card__logo">
             <div class="product-card__review-wrapper">
                 <div class="product-card__stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
+                    <img src="./assets/images/misc/star.svg" class="product-card__star">
+                    <img src="./assets/images/misc/star.svg" class="product-card__star">
+                    <img src="./assets/images/misc/star.svg" class="product-card__star">
+                    <img src="./assets/images/misc/star.svg" class="product-card__star">
+                    <img src="./assets/images/misc/star.svg" class="product-card__star">
                 </div>
                 <a href="#" class="product-card__show-review">Read review</a>
             </div>
@@ -68,11 +68,11 @@
             <img src="./assets/images/betway-logo.png" alt="product logo" class="product-card__logo">
             <div class="product-card__review-wrapper">
                 <div class="product-card__stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
+                    <img src="./assets/images/misc/star.svg" class="product-card__star">
+                    <img src="./assets/images/misc/star.svg" class="product-card__star">
+                    <img src="./assets/images/misc/star.svg" class="product-card__star">
+                    <img src="./assets/images/misc/star.svg" class="product-card__star">
+                    <img src="./assets/images/misc/star.svg" class="product-card__star">
                 </div>
                 <a href="#" class="product-card__show-review">Read review</a>
             </div>
@@ -89,11 +89,11 @@
             <img src="./assets/images/spin-logo.png" alt="product logo" class="product-card__logo">
             <div class="product-card__review-wrapper">
                 <div class="product-card__stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
+                    <img src="./assets/images/misc/star.svg" class="product-card__star">
+                    <img src="./assets/images/misc/star.svg" class="product-card__star">
+                    <img src="./assets/images/misc/star.svg" class="product-card__star">
+                    <img src="./assets/images/misc/star.svg" class="product-card__star">
+                    <img src="./assets/images/misc/star.svg" class="product-card__star">
                 </div>
                 <a href="#" class="product-card__show-review">Read review</a>
             </div>
@@ -110,11 +110,11 @@
             <img src="./assets/images/bodog-logo.png" alt="product logo" class="product-card__logo">
             <div class="product-card__review-wrapper">
                 <div class="product-card__stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
+                    <img src="./assets/images/misc/star.svg" class="product-card__star">
+                    <img src="./assets/images/misc/star.svg" class="product-card__star">
+                    <img src="./assets/images/misc/star.svg" class="product-card__star">
+                    <img src="./assets/images/misc/star.svg" class="product-card__star">
+                    <img src="./assets/images/misc/star.svg" class="product-card__star">
                 </div>
                 <a href="#" class="product-card__show-review">Read review</a>
             </div>

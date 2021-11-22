@@ -428,10 +428,14 @@ body {
   }
 
   &__stars {
-    .fa-star {
-      font-size: 11px;
-      color: $yellow;
-    }
+    display: flex;
+    justify-content: center;
+    padding: 6px 0;
+  }
+
+  &__star {
+    width: 11px;
+    height: 11px;
   }
 
   &__show-review {

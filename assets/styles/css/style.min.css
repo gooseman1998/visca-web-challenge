@@ -375,9 +375,14 @@ body {
 .product-card__review-wrapper {
   margin-bottom: 24px;
 }
-.product-card__stars .fa-star {
-  font-size: 11px;
-  color: #fbc02d;
+.product-card__stars {
+  display: flex;
+  justify-content: center;
+  padding: 6px 0;
+}
+.product-card__star {
+  width: 11px;
+  height: 11px;
 }
 .product-card__show-review {
   color: #3a3a3a;
