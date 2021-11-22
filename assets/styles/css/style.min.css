@@ -167,9 +167,9 @@ body {
   }
 }
 .products__c-flag {
-  width: 72px;
-  height: 40px;
-  margin-right: 16px;
+  width: 44px;
+  height: 32px;
+  margin-right: 12px;
 }
 .products__change-view {
   padding-right: 64px;

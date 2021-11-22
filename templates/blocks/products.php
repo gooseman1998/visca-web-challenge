@@ -7,7 +7,7 @@
             <span id="sort_normal">Don't sort Alphabetically</span>
         </div>
         <div class="products__title-wrapper">
-            <img src="./assets/images/canada-flag.svg" class="products__c-flag" alt="canada flag">
+            <img src="./assets/images/Flag_of_Canada.svg" class="products__c-flag" alt="canada flag">
             <h1 class="products__title">BEST SPORTS BETTING SITES</h1>
         </div>
         <div class="products__change-view">
