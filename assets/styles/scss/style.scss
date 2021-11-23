@@ -160,7 +160,7 @@ body {
   &__header {
     display: flex;
     justify-content: space-between;
-    max-width: 1200px;
+    max-width: 1400px;
     padding: 40px 32px 0;
     margin: 0 auto;
     align-items: center;
@@ -226,7 +226,7 @@ body {
     font-weight: $font-weight-extra-bold;
     font-size: 34px;
 
-    @media (max-width: 992px) {
+    @media (max-width: 576px) {
       font-size: 18px;
     }
   }
@@ -235,6 +235,11 @@ body {
     width: 44px;
     height: 32px;
     margin-right: 12px;
+
+    @media (max-width: 576px) {
+      width: 18px;
+      height: 13.5px;
+    }
   }
 
   &__change-view {
@@ -295,6 +300,7 @@ body {
 .product-cards {
   display: flex;
   justify-content: center;
+  max-width: 1400px;
   padding: 40px 32px 0;
   margin: 0 auto;
   gap: 16px;
