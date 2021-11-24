@@ -494,11 +494,23 @@ body {
   }
 
   &__show-review {
-    color: $mineShaft;
+    color: $lightGray;
     text-decoration: underline;
+
+    &--mobile {
+      display: none;
+    }
 
     @media (max-width: 576px) {
       font-size: 13px;
+
+      &--desktop {
+        display: none;
+      }
+
+      &--mobile {
+        display: block;
+      }
     }
   }
 
@@ -595,8 +607,8 @@ body {
 // image
 
 .image-big {
-  max-width: 1200px;
-  padding: 40px 32px 0;
+  max-width: 1400px;
+  padding: 0 32px;
   margin: 0 auto;
 
   @media (max-width: 768px) {
