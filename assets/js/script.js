@@ -24,6 +24,7 @@ changeView.addEventListener("click", (event) => {
 });
 
 sortAlphabetically.addEventListener("click", (event) => {
+  productCardWrapper.classList.add("product-cards--alphabetically");
   sortAlphabetically.style.display = "none";
   sortNormal.style.display = "block";
   names = [];
@@ -39,6 +40,9 @@ sortAlphabetically.addEventListener("click", (event) => {
 });
 
 sortNormal.addEventListener("click", (event) => {
+  if (productCardWrapper.classList.contains("product-cards--alphabetically")) {
+    productCardWrapper.classList.remove("product-cards--alphabetically");
+  }
   sortAlphabetically.style.display = "block";
   sortNormal.style.display = "none";
   productCards.forEach((card) => {
