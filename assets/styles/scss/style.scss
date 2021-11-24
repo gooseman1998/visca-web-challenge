@@ -385,6 +385,14 @@ body {
     transform: scale(1.05);
   }
 
+  &__link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+
   &--list {
     flex-direction: row;
     max-width: 100%;
@@ -510,6 +518,19 @@ body {
 
   &__review-wrapper {
     margin-bottom: 24px;
+    position: relative;
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  &__logo-wrapper {
+    position: relative;
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  &__logo-link {
+    pointer-events: all;
   }
 
   &__stars {
@@ -526,6 +547,7 @@ body {
   &__show-review {
     color: $lightGray;
     text-decoration: underline;
+    pointer-events: all;
 
     &--mobile {
       display: none;
@@ -582,6 +604,8 @@ body {
     padding-right: 40px;
     margin-top: auto;
     position: relative;
+    pointer-events: none;
+    z-index: 2;
 
     &--mobile {
       display: none;
