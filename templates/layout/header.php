@@ -23,7 +23,7 @@
                                 </button>
                             </div>
                             <a class="menu__brand" href="#">
-                                <img src="./assets/images/logo.svg" alt="logo-challenge">
+                                <img src="./assets/images/logo.svg" alt="logo-challenge" class="menu__image">
                             </a>
 
                             <div class="collapse navbar-collapse" id="navbarNav">
